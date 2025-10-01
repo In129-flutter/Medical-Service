@@ -105,6 +105,7 @@ lib/
 
 * Authentication is simulated; no real backend.
 * Admin and User roles are hardcoded.
+* Users can register new accounts if needed, but admin and service provider access remain hardcoded.
 * Request statuses are stored locally via SharedPreferences.
 
 ---
