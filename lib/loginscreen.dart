@@ -78,7 +78,7 @@ class _LoginScreenState extends State<LoginScreen> {
       backgroundColor: AppColors.white,
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(10, 40, 10, 10),
+          padding: const EdgeInsets.fromLTRB(10, 40, 10, 40),
           child: Column(
             children: [
               // Logo
@@ -91,6 +91,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   fit: BoxFit.contain,
                 ),
               ),
+              const SizedBox(height: 20),
+
               Text(
                 isRegister ? "Register" : "Login",
                 style: const TextStyle(

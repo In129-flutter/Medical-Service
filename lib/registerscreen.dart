@@ -72,7 +72,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 60),
           child: Column(
             children: [
-              Image.asset('assets/images/logo.png', width: 150),
+              Image.asset('assets/images/logo.png', width: 100),
               const SizedBox(height: 20),
 
               TextField(
